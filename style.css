@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .noto-sans-uno {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
@@ -5,11 +11,6 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 .navbar{
@@ -26,7 +27,12 @@
     padding: 15px 14px;
     border-radius: 6px;
     font-weight: bold;
-    gap: 25px;
+    gap: 30px;
+}
+.logo-text{
+    flex: 2;
+    text-align: left;
+    font-weight: 600;
 }
 .navlinks{
     display: flex;
@@ -40,7 +46,7 @@
 .nombre {
     display: flex;
     text-decoration: none;
-    background: white;
+    color: #f39c12;
     transition: 0.3s;
     gap:25px;
 }
@@ -49,11 +55,140 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 30px;
-    color: white
+    padding: 60px 40px;
+    color: white;
 }
 .smi-perfil img {
     width: 200px;
     height: 200px;
     border-radius: 100%;
+}
+.smi-text h1 {
+    font-size: 32px;
+}
+
+.smi-text h2 {
+    margin: 10px 0;
+}
+
+.smi-text p {
+    margin: 10px 0;
+}
+.sobreMI{
+    padding: 50px 40px;
+    background: linear-gradient(to right, white, gray);
+    text-align: center;
+}
+.sobreMI h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.sobreMI h2::after {
+    content: "";
+    width: 50px;
+    height: 4px;
+    background: #f39c12;
+    display: block;
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+.subMI {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+.contenedor {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.cajas {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+}
+.texto {
+    flex: 2;
+    text-align: left;
+}
+blockquote {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #eee;
+    border-left: 5px solid #f39c12;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+.texto {
+    flex: 2;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.datos {
+    flex: 1;
+    text-align: left;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+}
+
+.datos ul {
+    list-style: none;
+}
+
+.datos li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+.cards {
+    padding: 50px 40px;
+    background-color: #ffffff;
+}
+.cards .cajas {
+    width: 200px;
+    height: 120px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    background: linear-gradient(135deg, #3b7bbf, #2c5d8a);
+    color: white;
+    transition: 0.3s;
+}
+
+.cards .cajas:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.3);
+}
+aside {
+ background-color: #F1F5F9;
+ padding: 20px;
+ border: 1px solid var(--color-border);
+ border-radius: 8px;
+ margin-bottom: 20px;
+}
+aside h3 {
+ color: var(--color-primary);
+ margin-bottom: 8px;
+ margin-top: 15px;
+}
+aside h3:first-child {
+ margin-top: 0;
+}
+
+aside a {
+ color: var(--color-primary);
+ font-weight: bold;
+}
+aside a:hover {
+ color: var(--color-accent);
 }

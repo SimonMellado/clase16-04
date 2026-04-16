@@ -4,42 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Certamen 1</title>
+    <link rel="icon" type="assets" href="assets/logo-inacap.png">
+
     <link rel="stylesheet" href="style.css">
 
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class= noto-sans-uno>
+
+    <!-- NavBar -->
     <nav class="navbar">
-        <div>
-            <div class="logo">SM</div>
-        </div>
-        <div class="nombre">
-        <a href="#">Simón Mellado Guerra</a>
-        </div>
+
+        <div class="logo">SM</div>
+        <div class="logo-text">Simón Mellado Guerra</div>
         <div class="navlinks">
-            <a href="#">Sobre Mi</a>
+            <a href="#sobre-mi">Sobre Mi</a>
             <a href="#">Habilidades</a>
             <a href="#">Proyecto</a>
             <a href="#">Contacto</a>
         </div>
-    </div>
 
-
+    <!-- Perfil SMI -->
     </nav>
-     <section class="smi">
-        <div class="smi-text">
-        <h1>Hola, soy Simón Mellado.</h1>
-        <h2>Estudiante de Informatica</h2>
-        <p>Apasionado por crear software a grandes empresas</p>
-        <p>Actualmente estoy cursando el tercer semestre en el instituto profesional.</p>
+    <section id="sobre-mi">
+        <section class="smi">
+            <div class="smi-perfil">
+            <h1>Hola, soy Simón Mellado.</h1>
+            <h2>Estudiante de Informatica</h2>
+            <p>Apasionado por crear software a grandes empresas</p>
+            <p>Actualmente estoy cursando el tercer semestre en el instituto profesional.</p>
+        </div>
+        <!-- Foto Perfil -->
+        <div class="smi-perfil">
+            <img src="./assets/logo-inacap.png" alt="foto-perfil">
+        </div>
+        </section>
+    </section>
+
+    <!-- Texto Sobre Mi -->
+    <section class="sobreMI">
+    <h2>Sobre Mi</h2>
+    <p class="subMI">Conoceme un poco...</p>
+
+    <div class="contenedor">
+
+        <!-- Texto -->
+        <div class="cajas texto">
+            <p><strong>Mi nombre es Simón Mellado</strong> y soy estudiante de informatica.</p>
+            <p>Me apasiona crear software y aprender nuevas tecnologias para desarrollarme profesionalmente.</p>
+            <p>Actualmente estoy aprendiendo HTML5, CSS y JavaScript, con el objetivo de ser profesional.</p>
+
+            <blockquote>
+                "Todo el mundo debería aprender a programar porque te enseña a pensar." — Steve Jobs.
+            </blockquote>
+        </div>
+
+        <div class="datos">
+            <h3>Datos Personales</h3>
+            <ul>
+                <li><strong>Edad:</strong> 19</li>
+                <li><strong>Ciudad:</strong> Concepción</li>
+                <li><strong>Email:</strong> simon.mellado02@inacapmail.cl</li>
+                <li><strong>Carrera:</strong> Informatica</li>
+                <li><strong>Intereses:</strong> Gaming, SQL</li>
+            </ul>
+        </div>
+
     </div>
 
     
-    <div class="smi-perfil">
-        <img src="./assets/logo-inacap.png" alt="foto-perfil">
-    </div>
 </body>
 </html>
