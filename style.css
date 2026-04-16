@@ -1,0 +1,59 @@
+.noto-sans-uno {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom right, blue, red);
+    padding: 15px 40px;
+    color: white;
+}
+.logo{
+    background: orange;
+    color: rgb(255, 255, 255);
+    padding: 15px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    gap: 25px;
+}
+.navlinks{
+    display: flex;
+    gap: 25px;
+}
+.navlinks a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.nombre {
+    display: flex;
+    text-decoration: none;
+    background: white;
+    transition: 0.3s;
+    gap:25px;
+}
+.smi{
+    background: linear-gradient(to right, blue, red);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    color: white
+}
+.smi-perfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
