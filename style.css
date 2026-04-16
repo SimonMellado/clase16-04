@@ -169,26 +169,3 @@ blockquote {
     transform: translateY(-5px);
     box-shadow: 0px 8px 15px rgba(0,0,0,0.3);
 }
-aside {
- background-color: #F1F5F9;
- padding: 20px;
- border: 1px solid var(--color-border);
- border-radius: 8px;
- margin-bottom: 20px;
-}
-aside h3 {
- color: var(--color-primary);
- margin-bottom: 8px;
- margin-top: 15px;
-}
-aside h3:first-child {
- margin-top: 0;
-}
-
-aside a {
- color: var(--color-primary);
- font-weight: bold;
-}
-aside a:hover {
- color: var(--color-accent);
-}
