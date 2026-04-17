@@ -169,3 +169,77 @@ blockquote {
     transform: translateY(-5px);
     box-shadow: 0px 8px 15px rgba(0,0,0,0.3);
 }
+
+.card-tabla {
+    background: white;
+    border-radius: 350px;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    margin: 20px auto;
+    max-width: 800px;
+}
+.progreso-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.badge-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.badge {
+    border: 1px dashed #ef4444;
+    color: #ef4444;
+    padding: 4px 12px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-family: monospace;
+}
+.skills-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f1f5f9;
+}
+.progreso-bg {
+    background: #ffffff;
+    height: 8px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.progreso-barra {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.blue { 
+    background: blue; 
+}
+.green { 
+    background: green;
+ }
+.orange { 
+    background: orange; 
+}
+.purple { 
+    background: purple; 
+}
+.red { 
+    background: red; 
+}
+
+.habilidades-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.caja-habilidad {
+    background: white;
+    padding: 20px;
+    border-radius: 30px;
+    flex: 1;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
