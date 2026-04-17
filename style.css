@@ -13,6 +13,8 @@
     "wdth" 100;
 }
 
+
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -41,13 +43,17 @@
 .navlinks a {
     text-decoration: none;
     color: white;
-    transition: 0.3s;
+    transition: 0.3s ease;
+}
+.navlinks a:hover {
+    color: #08cbee;
+    transform: translateY(-2px);
 }
 .nombre {
     display: flex;
     text-decoration: none;
     color: #f39c12;
-    transition: 0.3s;
+    transition: 0.3s ease;
     gap:25px;
 }
 .smi{
