@@ -234,7 +234,7 @@ blockquote {
     background: red; 
 }
 
-.habilidades-grid {
+.habilidades-caja {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -248,4 +248,118 @@ blockquote {
     border-radius: 30px;
     flex: 1;
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.proyectos{
+    max-width:1200px;
+    margin:0 auto;
+    width:100%;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.grid-proyectos{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
+}
+
+.card{
+    background:white;
+    border-radius:18px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    transition:.35s;
+}
+.card:hover{
+    transform:translateY(-12px);
+    box-shadow:
+    0 20px 35px rgba(0,0,0,0.12);
+}
+.top{
+    height:150px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:45px;
+}
+
+.gradient1{
+    background:linear-gradient(135deg,#5668ff,#8257ff);
+}
+
+.gradient2{
+    background:linear-gradient(135deg,#e86dfd,#ff5b85);
+}
+
+.gradient3{
+    background:linear-gradient(135deg,#49a8ff,#11d4dc);
+}
+
+.gradient4{
+    background:linear-gradient(135deg,#32dd72,#4ef1d6);
+}
+
+.gradient5{
+    background:linear-gradient(135deg,#ff7f8a,#ffd343);
+}
+
+.gradient6{
+    background:linear-gradient(135deg,#b59cff,#efb7d4);
+}
+
+.contenido{
+    padding:25px;
+}
+
+
+.contacto-contenedor{
+    display:flex;
+    gap:30px;
+    max-width:1100px;
+    margin:auto;
+    margin-bottom:70px;
+}
+
+.formulario-box{
+    flex:2;
+}
+
+
+button{
+    margin-top:10px;
+    padding:16px;
+    background:#1d3a68;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#274d89;
+}
+
+    input,
+    select,
+    textarea{
+    width:100%;
+    padding:14px;
+    border:1px solid #d6dceb;
+    border-radius:8px;
+    background:#f8f9fd;
+}
+
+textarea{
+    height:120px;
+    resize:none;
+}
+
+    form label:nth-of-type(3),
+    form label:nth-of-type(4),
+    select,
+    textarea,
+    button{
+    grid-column:span 2;
 }

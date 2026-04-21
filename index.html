@@ -74,6 +74,8 @@
         </div>
     </section>
 
+    <!-- Habilidades -->
+
      <section id="habilidades" class="sobreMI">
         <h2>Habilidades</h2>
         <p class="subMI">Tecnologías y Competencias</p>
@@ -117,7 +119,9 @@
             </table>
         </div>
 
-        <div class="habilidades-grid">
+        <!-- Caja de Habilidades -->
+
+        <div class="habilidades-caja">
             <div class="caja-habilidad">
                 <h3>Competencias Técnicas</h3>
                 <ul>
@@ -137,7 +141,177 @@
                 </ul>
             </div>
         </div>
+
+        <section class="proyectos">
+
+    <div class="titulo-contenedor">
+        <h2>Proyectos</h2>
+        <p class="subMI">Tecnologías y Competencias</p>
+    </div>
+
+    <div class="grid-proyectos">
+
+        <div class="card">
+            <div class="top gradient1">
+                <span>💻</span>
+            </div>
+
+            <div class="contenido">
+                <small>Proyecto web - Landing page</small>
+
+                <h3>Landing Page</h3>
+
+                <p>
+                    Página de aterrizaje para
+                    producto digital con diseño
+                    moderno.
+                </p>
+
+                <a href="#">Ver repositorio →</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="top gradient2">
+                <span>🎨</span>
+            </div>
+
+            <div class="contenido">
+                <small>Proyecto web - Blog personal</small>
+
+                <h3>Blog Personal</h3>
+
+                <p>
+                    Blog responsivo con sistema de
+                    artículos y categorías.
+                </p>
+
+                <a href="#">Ver repositorio →</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="top gradient3">
+                <span>🛠</span>
+            </div>
+
+            <div class="contenido">
+                <small>Proyecto web - Dashboard</small>
+
+                <h3>Dashboard Admin</h3>
+
+                <p>
+                    Panel de administración con
+                    gráficos y tablas de datos.
+                </p>
+
+                <a href="#">Ver repositorio →</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="top gradient4">
+                <span>📱</span>
+            </div>
+
+            <div class="contenido">
+                <small>Proyecto web - App móvil</small>
+
+                <h3>App Clima</h3>
+
+                <p>
+                    Aplicación del clima con API
+                    externa y diseño responsivo.
+                </p>
+
+                <a href="#">Ver repositorio →</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="top gradient5">
+                <span>🚀</span>
+            </div>
+
+            <div class="contenido">
+                <small>Proyecto web - E-commerce</small>
+
+                <h3>Tienda Online</h3>
+
+                <p>
+                    E-commerce básico con catálogo
+                    de productos y carrito.
+                </p>
+
+                <a href="#">Ver repositorio →</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="top gradient6">
+                <span>📚</span>
+            </div>
+
+            <div class="contenido">
+                <small>Proyecto web - Portafolio</small>
+
+                <h3>Portafolio v1</h3>
+
+                <p>
+                    Primera versión de mi portafolio
+                    profesional.
+                </p>
+
+                <a href="#">Ver repositorio →</a>
+            </div>
+        </div>
+
+    </div>
     </section>
 
+     <!-- Caja Contacto -->
+
+     <section id="contacto-contenedor">
+        <h2>Contáctame</h2>
+
+        <form action="/contacto" method="POST">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre"
+                   required placeholder="Tu nombre">
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email"
+                   required placeholder="correo@ejemplo.com">
+            <label for="asunto">Asunto:</label>
+            <select id="asunto" name="asunto">
+                <option value="">Selecciona un tema...</option>
+                <option value="consulta">Consulta general</option>
+                <option value="colaboracion">Colaboración</option>
+                <option value="error">Reportar error</option>
+            </select>
+            <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5"
+                      required minlength="10"
+                      placeholder="Escribe tu mensaje aquí..."></textarea>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+
+        <div class="datos">
+            <h3>Información de Contacto</h3>
+            <ul>
+                <li><span>✉</span> simon.mellado02@inacapmail.cl</li>
+                <li><span>📍</span> Concepción</li>
+                <li><span>📱</span> +569 37014472</li>
+                <li><span>🌐</span> https://github.com/SimonMellado</li>
+            </ul>
+        </div>
+
+        
 </body>
 </html>
