@@ -36,11 +36,6 @@
     text-align: left;
     font-weight: 600;
 }
-.logo-text{
-    display: center;
-    font-size: medium;
-    font-weight: 600;
-}
 .navlinks{
     display: flex;
     gap: 25px;
@@ -74,43 +69,6 @@
     height: 200px;
     border-radius: 100%;
 }
-<<<<<<< HEAD
-.smi-text{
-background: linear-gradient(to right, blue, red);;
-}
-.sobreMI{
-    background: linear-gradient(to right, white, red);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top:5px;
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-}
-.subMI{
-    text-align: center;
-    background: linear-gradient(to right, white, gray);
-    margin-bottom: 10px;
-}
-.sobre-contenido{
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    margin-top: 20px;
-    flex: 1;
-    background: linear-gradient(to right, white, gray);
-    padding: 15px;
-    border-radius: 10px;
-}
-.contenedor{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgb(0, 0, 0);
-    gap: 20px;
-=======
 .smi-text h1 {
     font-size: 32px;
 }
@@ -404,5 +362,14 @@ textarea{
     textarea,
     button{
     grid-column:span 2;
->>>>>>> c438db162c9696b1a8cbfe694b6509c712ad281b
+}
+.logo-contacto{
+    background: orange;
+    color: rgb(255, 255, 255);
+    padding: 3px 3px;
+    border-radius: 3px;
+    font-weight: bold;
+    gap: 10px;
+    width: 12%;
+    align-items: center;
 }
