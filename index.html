@@ -276,41 +276,93 @@
 
      <!-- Caja Contacto -->
 
-     <section id="contacto-contenedor">
-        <h2>Contáctame</h2>
+    <section id="contacto-contenedor">
 
-        <form action="/contacto" method="POST">
-            <label for="nombre">Nombre completo:</label>
-            <input type="text" id="nombre" name="nombre"
-                   required placeholder="Tu nombre">
+        <h2>Contacto</h2>
+        <p class="subMI">Envíame un mensaje</p>
 
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email"
-                   required placeholder="correo@ejemplo.com">
-            <label for="asunto">Asunto:</label>
-            <select id="asunto" name="asunto">
-                <option value="">Selecciona un tema...</option>
-                <option value="consulta">Consulta general</option>
-                <option value="colaboracion">Colaboración</option>
-                <option value="error">Reportar error</option>
-            </select>
-            <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="5"
-                      required minlength="10"
-                      placeholder="Escribe tu mensaje aquí..."></textarea>
+        <div class="contacto-grid">
 
-            <button type="submit">Enviar mensaje</button>
-        </form>
+            <form action="/contacto" method="POST">
+                <label for="nombre">Nombre completo:</label>
 
-        <div class="datos">
-            <h3>Información de Contacto</h3>
-            <ul>
-                <li><span>✉</span> simon.mellado02@inacapmail.cl</li>
-                <li><span>📍</span> Concepción</li>
-                <li><span>📱</span> +569 37014472</li>
-                <li><span>🌐</span> https://github.com/SimonMellado</li>
-            </ul>
+                <input type="text" id="nombre" name="nombre"
+                    required placeholder="Tu nombre">
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email"
+                    required placeholder="correo@ejemplo.com">
+
+                <label for="asunto">Asunto:</label>
+                <select id="asunto" name="asunto">
+                    <option value="">Selecciona un tema...</option>
+                    <option value="consulta">Consulta general</option>
+                    <option value="colaboracion">Colaboración</option>
+                    <option value="error">Reportar error</option>
+                </select>
+
+                <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5"
+                        required minlength="10"
+                        placeholder="Escribe tu mensaje aquí..."></textarea>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+
+            <div class="contacto-info">
+                <h3>Información de Contacto</h3>
+                <ul>
+                    <li class="item-contacto">
+                        <div class="logo-contacto">📨</div>
+                        <span>simon.mellado02@inacapmail.cl</span>
+                    </li>
+
+                    <li class="item-contacto">
+                        <div class="logo-contacto">📍</div>
+                        <span>Concepción</span>
+                    </li>
+
+                    <li class="item-contacto">
+                        <div class="logo-contacto">📞</div>
+                        <span>+569 37014472</span>
+                    </li>
+
+                    <li class="item-contacto">
+                        <div class="logo-contacto">🌐</div>
+                        <span>https://github.com/SimonMellado</span>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </section>
+
+     <!-- Footer -->
+    <section>
+        <footer>
+
+            <div class="footer-contenido">
+
+                <div class="marca">
+                    <div class="logo-copy">SM</div>
+                    <h3>Simón Mellado Guerra</h3>
+                </div>
+
+                <div class="redes">
+                    <a href="https://github.com/SimonMellado">GH</a>
+                    <a href="#">LI</a>
+                    <a href="#">TW</a>
+                    <a href="https://www.instagram.com/s.melladoo">IG</a>
+                </div>
+
+            </div>
+
+            <div class="linea-copy"></div>
+            <p class="copy">
+            © 2026 Simón Mellado Guerra. Todos los derechos reservados.
+            </p>
+
+        </footer>
+    </section>
 
         
 </body>
